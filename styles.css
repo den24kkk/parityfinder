@@ -1,0 +1,307 @@
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+    body{
+        background-color: #279AF1;
+    }
+    .header{
+        background-color: #38369A;
+        height: 160px;
+        width: 100%;
+        top: 0px;
+        position: sticky;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    .header__text{
+        font-family: 'Fira Sans Condensed';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        color: #FFFFFF;
+    }
+
+    .header__group{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .logo{
+        size: auto;
+    }
+    a{
+        font-family: 'Crete Round';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        color: #FFFFFF;
+
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+    }
+    .header__button{
+        font-family: 'Crete Round';
+        font-style: normal;
+        font-weight: 400;
+        margin-left: 1vw;
+        width: 142px;
+        height: 120px;
+        left: auto;
+        align-self: center;
+        border-radius: 12px;
+        background-color: #809BCE;
+        text-align: center;
+        text-decoration: underline;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+        color: #FFFFFF;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .text__header{
+        align-self: center;
+        justify-self: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 96px;
+        line-height: 116px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .text{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 77px;
+        text-align: center;
+        color: #FFFFFF;
+
+    }
+    .text-small{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 77px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        align-self: center;
+        justify-self: center
+    }
+    .grid{
+        display: grid;
+        width: 100vw;
+        grid-template-columns: 1fr 1fr;
+    }
+    .area{
+        background-color: #21D19F;
+        margin-top: 3vh;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        height: auto;
+    }
+    .area__text{
+        text-align: center;
+        font-family: 'Fira Sans Condensed';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        color: #FFFFFF;
+        align-self: center;
+        justify-self: center;
+    }
+    .group{
+        display: flex;
+        width: 304px;
+        height: 536px;
+        flex-direction: column;
+    }
+    .group__img{
+        width: 304px;
+        height: 279px;
+    }
+    .group__header{
+        font-family: 'Nunito Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        text-align: center;
+        margin: 0;
+        color: #FFFFFF;
+        
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .group__text{
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        text-align: center;
+        
+        color: #FFFFFF;
+    }
+    .area__container{
+        display: flex;
+        flex-wrap: wrap ;
+        justify-content: space-around;
+    }
+    .area__container2{
+        margin-top: 5vh;
+        display: flex;
+        flex-wrap: wrap ;
+        justify-content: space-around;
+    }
+    .group2{
+        display: grid;
+        width: 1273px;
+        height: 480px;
+        grid-template-columns: 1fr 1fr;
+
+
+    }
+    .group2__img{
+        grid-column-start: 1;
+        justify-self: center;
+        size: auto;
+    }
+    .group2__header{
+        font-family: 'Nunito Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        text-align: center;
+        margin: 0;
+        color: #FFFFFF;
+        
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .group2__text{
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        text-align: center;
+        grid-column-start: 2;
+        
+        color: #FFFFFF;
+    }
+    .group2__textsection{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    } 
+    @media screen and (max-width: 769px){
+        .grid{
+                position: relative;
+                margin-top: 15vh;
+        }
+        
+        .header__text{
+            font-size: 0,5em;
+        }
+        .header__button{
+        display: none;
+        }
+        .header{
+            position: absolute;
+            background-color: #38369A;
+            height: 20vh;
+            width: 100%;
+            top: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .logo{
+            size: inherit;  
+        }
+        .group__img{
+            width: 60vw;
+            align-self: center;
+        }
+        .group2{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .group2__img{
+            width: fit-content;
+            height: 30vh;
+        }
+        h1{
+            font-size: 12px;
+        }
+        .text__header{
+            margin-top: 20vh;
+        }
+    }
+    @media screen and (max-width: 426px){
+        .logo{
+            display: none;
+        }
+        .header{
+            height: 10vh;
+        }
+        .grid{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            height: 50vh;
+            align-items: center;
+            justify-content: center;
+            margin: 0px;
+        }
+        .group2__text{
+            font-size: 24px;
+        }
+        .group2__header{
+            font-size: 24px;
+        }
+        .group__header{
+            font-size: 30px;
+        }
+        .area__text{
+            font-size: 36px;
+        }
+        .text-small{
+            font-size: 24px;
+        }
+        .container{
+            width: inherit;
+            flex-direction: column;
+        }
+        .text__header{
+            margin-top: 10vh;
+            color: #FFFFFF;
+            font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 60px;
+        }
+        .text{
+            font-size: 30px
+        }
+    }
+
